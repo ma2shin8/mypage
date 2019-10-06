@@ -32,4 +32,12 @@ $(function () {
     return false;
   });
 
+  //ページトップへもどる
+  $('#js-pageTop2').on('click', function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 300);
+    return false;
+  });
+
 });
